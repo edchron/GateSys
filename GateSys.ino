@@ -16,7 +16,7 @@
 // How many times we should attempt to connect to AWS
 #define AWS_MAX_RECONNECT_TRIES 50
 
-#define WIFI_SSID "dd-wrt" // SSID of your WIFI
+#define WIFI_SSID "" // SSID of your WIFI
 #define WIFI_PASSWD "" //your wifi password
 
 const int echoPin = 5; // Echo Pin of Ultrasonic Sensor // Pin D5 on ESP32
@@ -33,7 +33,6 @@ int distance;
 
 Servo servo;
 WiFiClientSecure wifiClient = WiFiClientSecure();
-//MQTTClient client = MQTTClient(512);
 void msgReceived(char* topic, byte* payload, unsigned int len);
 PubSubClient pubSubClient(AWS_IOT_ENDPOINT, 8883, msgReceived, wifiClient);
 
