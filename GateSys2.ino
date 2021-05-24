@@ -35,8 +35,8 @@ int pirOut, pirIn;
 unsigned long lastPublish, previousTime;
 int current = 0;
 int total = 0;
-//pir luar (pirOut) = untuk orang masuk (letaknya di luar pintu)
-//pir dalam (pirIn) = untuk orang keluar (letaknya di dalam pintu)
+//pirOut = for entering customer (placed outside of building gate area)
+//pirIn = for leaving customer (placed inside of building gate area)
 
 Servo servo;
 WiFiClientSecure wifiClient = WiFiClientSecure();
