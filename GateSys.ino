@@ -1,5 +1,5 @@
 #include <WiFiClientSecure.h>
-#include "certs.h"
+#include "certs.h" // Certificate file *.h for AWS IoT Connection
 #include <Servo.h>
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
