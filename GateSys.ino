@@ -8,7 +8,7 @@
 #define DEVICE_NAME "GateVisitorSys"
 
 // The MQTTT endpoint for the device (unique for each AWS account but shared amongst devices within the account)
-#define AWS_IOT_ENDPOINT "a38fyy88ks1o8p-ats.iot.us-east-1.amazonaws.com"
+#define AWS_IOT_ENDPOINT "YOUR AWS IOT ENDPOINT"
 
 // The MQTT topic that this device should publish to
 #define AWS_IOT_TOPIC "$aws/things/" DEVICE_NAME
