@@ -8,7 +8,7 @@
 #define DEVICE_NAME "GateVisitorSys"
 
 // The MQTTT endpoint for the device (unique for each AWS account but shared amongst devices within the account)
-#define AWS_IOT_ENDPOINT "a38fyy88ks1o8p-ats.iot.us-east-1.amazonaws.com"
+#define AWS_IOT_ENDPOINT "YOUR AWS IOT END POINT"
 
 // The MQTT topic that this device should publish to
 #define AWS_IOT_TOPIC "$aws/things/" DEVICE_NAME
@@ -20,7 +20,7 @@
 // How many times we should attempt to connect to AWS
 #define AWS_MAX_RECONNECT_TRIES 50
 
-#define WIFI_SSID "dd-wrt" // SSID of your WIFI
+#define WIFI_SSID "" // SSID of your WIFI
 #define WIFI_PASSWD "" //your wifi password
 
 const int pir1 = 5; // pin PIR 1 // Pin D5 on ESP32
